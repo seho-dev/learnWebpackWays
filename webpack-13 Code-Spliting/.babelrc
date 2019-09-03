@@ -1,0 +1,15 @@
+{
+    "plugins": [
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "absoluteRuntime": false,
+          "corejs": 2,
+          "helpers": true,
+          "regenerator": true,
+          "useESModules": false
+        },
+      ],
+      "dynamic-import-webpack"
+    ]
+}

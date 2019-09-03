@@ -1,0 +1,363 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.35.2",
+  "hash": "02a196e110076c279e88",
+  "time": 384,
+  "builtAt": 1565277738389,
+  "publicPath": "",
+  "outputPath": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\bundle",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "0.js",
+      "size": 679,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 9478,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": null,
+            "chunks": [
+              0
+            ],
+            "assets": [
+              "0.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "0.js"
+        ]
+      }
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {
+        "prefetch": [
+          {
+            "name": null,
+            "chunks": [
+              0
+            ],
+            "assets": [
+              "0.js"
+            ]
+          }
+        ]
+      },
+      "childAssets": {
+        "prefetch": [
+          "0.js"
+        ]
+      }
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 137,
+      "names": [],
+      "files": [
+        "0.js"
+      ],
+      "hash": "fe3800e5a280ef39f3a5",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/inner.js",
+          "identifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\inner.js",
+          "name": "./src/inner.js",
+          "index": 1,
+          "index2": 1,
+          "size": 137,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 37,
+                "building": 294
+              }
+            }
+          ],
+          "profile": {
+            "factory": 3,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "import()",
+              "userRequest": "./inner",
+              "loc": "2:9-4:12"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "export default function inner() {\n  let dom = document.createElement(\"div\");\n  dom.innerHTML = \"123\";\n  document.body.appendChild(dom);\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "./src/index.js",
+          "module": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+          "moduleIdentifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+          "moduleName": "./src/index.js",
+          "loc": "2:9-4:12",
+          "request": "./inner",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 160,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "4c560ed49feea4eb018d",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        0
+      ],
+      "childrenByOrder": {
+        "prefetch": [
+          0
+        ]
+      },
+      "modules": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 160,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 37,
+            "building": 294
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "document.addEventListener(\"click\", () => {\n  return import(\n  /* webpackPrefetch: true */\n  \"./inner\").then(({\n    default: func\n  }) => {\n    func();\n  });\n});"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/index.js",
+      "identifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 160,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 37,
+        "building": 294
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "document.addEventListener(\"click\", () => {\n  return import(\n  /* webpackPrefetch: true */\n  \"./inner\").then(({\n    default: func\n  }) => {\n    func();\n  });\n});"
+    },
+    {
+      "id": "./src/inner.js",
+      "identifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\inner.js",
+      "name": "./src/inner.js",
+      "index": 1,
+      "index2": 1,
+      "size": 137,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 37,
+            "building": 294
+          }
+        }
+      ],
+      "profile": {
+        "factory": 3,
+        "building": 9
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\node_modules\\babel-loader\\lib\\index.js!D:\\原桌面\\前端日常训练\\webpack-16 性能优化和preFetch的使用\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "import()",
+          "userRequest": "./inner",
+          "loc": "2:9-4:12"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "export default function inner() {\n  let dom = document.createElement(\"div\");\n  dom.innerHTML = \"123\";\n  document.body.appendChild(dom);\n}"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

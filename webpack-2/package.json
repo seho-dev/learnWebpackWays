@@ -1,0 +1,18 @@
+{
+  "name": "webpack-2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "boundle":"webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
