@@ -1,0 +1,21 @@
+{
+  "name": "libray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "workbox-webpack-plugin": "^4.3.1"
+  }
+}
